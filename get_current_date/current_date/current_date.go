@@ -2,13 +2,15 @@ package current_date
 
 import (
 	"fmt"
+	"reflect"
 	"time"
 )
 
-func Get_current_date() (date string) {
+// GetCurrentDate returns Time.now()
+func GetCurrentDate() (date string) {
 	now := time.Now().Local()
 
-	fmt.Println("%T", now)
+	fmt.Println(reflect.TypeOf(now))
 
 	return ""
 }

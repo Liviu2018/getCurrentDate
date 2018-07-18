@@ -11,7 +11,8 @@ import (
 var appName = "get current date"
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "%s", current_date.Get_current_date())
+	current_date.GetCurrentDate()
+	//fmt.Fprintf(w, "%s", current_date.Get_current_date())
 }
 
 func main() {
