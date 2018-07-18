@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"µS/getcurrent_date/current_date"
+	"github.com/Liviu2018/getCurrentDate/get_current_date/current_date"
 )
 
 var appName = "get current date"
